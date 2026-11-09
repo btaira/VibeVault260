@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useCallback, useEffect, Suspense } from "react";
+import { useMemo, useState, useCallback, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { AnimatePresence } from "framer-motion";
 import { PROJECTS } from "@/data/projects";
@@ -22,19 +22,13 @@ function HomeContent() {
   const searchParams = useSearchParams();
   const [activeCategory, setActiveCategory] = useState<CategoryId | "all">("all");
   const [activeDifficulty, setActiveDifficulty] = useState<Difficulty>("all");
-  const [modalProject, setModalProject] = useState<Project | null>(null);
+  const [modalProject, setModalProject] = useState<Project | null>(() => {
+    const id = searchParams.get("project");
+    return id ? (PROJECTS.find((p) => p.id === id) ?? null) : null;
+  });
   const [slotSequence, setSlotSequence] = useState<Project[] | null>(null);
   const [slotWinner, setSlotWinner] = useState<Project | null>(null);
   const [spinning, setSpinning] = useState(false);
-
-  // Deep link: open modal from ?project=id on mount
-  useEffect(() => {
-    const id = searchParams.get("project");
-    if (id) {
-      const found = PROJECTS.find((p) => p.id === id);
-      if (found) setModalProject(found);
-    }
-  }, [searchParams]);
 
   const handleOpenModal = useCallback((project: Project) => {
     setModalProject(project);

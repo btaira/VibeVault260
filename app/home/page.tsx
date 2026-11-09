@@ -88,7 +88,7 @@ export default function ShowcasePage() {
           <div className="mt-10 rounded-3xl border border-white/10 bg-white/5 p-6">
             <h2 className="text-2xl font-semibold text-white">App Screenshots & Features</h2>
             <p className="mt-3 text-slate-300">
-              Here's a visual overview of the app's key features and pages.
+              Here&apos;s a visual overview of the app&apos;s key features and pages.
             </p>
             <div className="mt-6 grid gap-6 sm:grid-cols-2">
               <div className="rounded-3xl border border-white/10 bg-slate-950/80 p-4">

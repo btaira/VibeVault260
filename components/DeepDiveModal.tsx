@@ -86,6 +86,7 @@ export default function DeepDiveModal({ project, onClose }: Props) {
                 onClick={onClose}
                 className="absolute right-5 top-5 rounded-full p-1.5 text-fg-dim hover:text-fg-base hover:bg-white/10 transition-colors"
                 aria-label="Close"
+                autoFocus
               >
                 <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />

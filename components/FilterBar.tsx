@@ -46,7 +46,7 @@ export default function FilterBar({ active, onSelect, counts, difficulty, onDiff
                   VibeVault <span className="text-neon-magenta">250</span>
                 </h1>
                 <p className="hidden text-xs text-fg-dim sm:block">
-                  250 AI project ideas · curated from Reddit's vibe coding community
+                  250 AI project ideas · curated from Reddit&apos;s vibe coding community
                 </p>
               </div>
             </div>
