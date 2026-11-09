@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useVibeStore } from "@/lib/store";
-import { CATEGORIES } from "@/lib/types";
+import { CATEGORIES, DIFFICULTY_COLORS } from "@/lib/types";
 import type { Project } from "@/lib/types";
 import MagneticButton from "./MagneticButton";
 import { playPop } from "@/lib/sound";
@@ -14,11 +14,6 @@ interface Props {
   isWinner?: boolean;
 }
 
-const DIFFICULTY_COLORS = {
-  Beginner: "text-neon-emerald border-neon-emerald/40 bg-neon-emerald/10",
-  Intermediate: "text-neon-amber border-neon-amber/40 bg-neon-amber/10",
-  Advanced: "text-neon-magenta border-neon-magenta/40 bg-neon-magenta/10",
-};
 
 export default function ProjectCard({ project, onDeepDive, isWinner }: Props) {
   const { toggleLike, isLiked } = useVibeStore();

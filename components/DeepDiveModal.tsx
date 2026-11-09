@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import confetti from "canvas-confetti";
-import { CATEGORIES } from "@/lib/types";
+import { CATEGORIES, DIFFICULTY_COLORS } from "@/lib/types";
 import type { Project } from "@/lib/types";
 import { useVibeStore } from "@/lib/store";
 import { playPop, playWin } from "@/lib/sound";
@@ -13,11 +13,6 @@ interface Props {
   onClose: () => void;
 }
 
-const DIFFICULTY_COLORS = {
-  Beginner: "text-neon-emerald border-neon-emerald/40 bg-neon-emerald/10",
-  Intermediate: "text-neon-amber border-neon-amber/40 bg-neon-amber/10",
-  Advanced: "text-neon-magenta border-neon-magenta/40 bg-neon-magenta/10",
-};
 
 export default function DeepDiveModal({ project, onClose }: Props) {
   const [copied, setCopied] = useState(false);

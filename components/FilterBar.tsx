@@ -33,7 +33,6 @@ export default function FilterBar({ active, onSelect, counts, difficulty, onDiff
   return (
     <header
       className="sticky top-0 z-40 w-full transition-all duration-300"
-      style={scrolled ? undefined : undefined}
     >
       <div className={`w-full transition-all duration-300 ${scrolled ? "scrolled-blur" : "bg-transparent"}`}>
         <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6">

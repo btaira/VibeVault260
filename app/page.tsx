@@ -17,7 +17,7 @@ import DeepDiveModal from "@/components/DeepDiveModal";
 const SLOT_FRAMES = 18;
 
 function HomeContent() {
-  const { scores, hydrated } = useVibeStore();
+  const { scores, hydrated, recordSurprise } = useVibeStore();
   const router = useRouter();
   const searchParams = useSearchParams();
   const [activeCategory, setActiveCategory] = useState<CategoryId | "all">("all");
@@ -66,9 +66,10 @@ function HomeContent() {
     const sequence = pickShuffleSequence(PROJECTS, safeScores, SLOT_FRAMES);
     const { project: winner } = pickWeightedProject(PROJECTS, { scores: safeScores });
 
+    recordSurprise();
     setSlotSequence(sequence);
     setSlotWinner(winner);
-  }, [spinning, hydrated, scores]);
+  }, [spinning, hydrated, scores, recordSurprise]);
 
   const handleSlotDone = useCallback(() => {
     setSpinning(false);
