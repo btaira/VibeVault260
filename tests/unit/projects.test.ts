@@ -3,14 +3,21 @@ import { PROJECTS } from "@/data/projects";
 import { CATEGORIES } from "@/lib/types";
 
 describe("PROJECTS data integrity", () => {
-  it("contains exactly 250 projects", () => {
-    expect(PROJECTS).toHaveLength(250);
+  it("contains exactly 260 projects", () => {
+    expect(PROJECTS).toHaveLength(260);
   });
 
-  it("has exactly 50 projects per category", () => {
+  it("has the expected number of projects per category", () => {
+    const expected: Record<string, number> = {
+      saas: 53,
+      creative: 51,
+      utility: 52,
+      social: 50,
+      deeptech: 54,
+    };
     for (const cat of CATEGORIES) {
       const count = PROJECTS.filter((p) => p.category === cat.id).length;
-      expect(count, `${cat.id} should have 50 projects`).toBe(50);
+      expect(count, `${cat.id} should have ${expected[cat.id]} projects`).toBe(expected[cat.id]);
     }
   });
 

@@ -4,9 +4,9 @@ import { CATEGORIES } from "@/lib/types";
 import { PROJECTS } from "@/data/projects";
 
 export const metadata: Metadata = {
-  title: "Showcase | VibeVault 250",
+  title: "Showcase | VibeVault 260",
   description:
-    "Explore the VibeVault 250 project showcase, learn how it works, and run it locally or in Docker.",
+    "Explore the VibeVault 260 project showcase, learn how it works, and run it locally or in Docker.",
 };
 
 export default function ShowcasePage() {
@@ -15,10 +15,10 @@ export default function ShowcasePage() {
       <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="rounded-[2rem] border border-white/10 bg-slate-950/90 p-10 shadow-2xl shadow-slate-950/20 backdrop-blur-xl">
           <div className="mb-8 space-y-4 text-slate-100">
-            <p className="text-sm uppercase tracking-[0.3em] text-cyan-300">VibeVault 250</p>
+            <p className="text-sm uppercase tracking-[0.3em] text-cyan-300">VibeVault 260</p>
             <h1 className="text-4xl font-semibold sm:text-5xl">Project Showcase</h1>
             <p className="max-w-3xl text-slate-300 sm:text-lg">
-              Browse the app that brings 250 AI project ideas to life. Filter ideas by category,
+              Browse the app that brings 260 AI project ideas to life. Filter ideas by category,
               explore idea prompts, and deploy the site locally or inside a Docker container.
             </p>
           </div>
@@ -27,7 +27,7 @@ export default function ShowcasePage() {
             <div className="space-y-6 rounded-3xl border border-white/10 bg-white/5 p-6">
               <h2 className="text-2xl font-semibold text-white">What this app does</h2>
               <ul className="space-y-3 text-slate-300">
-                <li>• Showcases 250 project ideas organized by category</li>
+                <li>• Showcases 260 project ideas organized by category</li>
                 <li>• Lets you filter by SaaS, Creative, Utility, Social, and Deep Tech</li>
                 <li>• Includes a surprise picker with a slot machine animation</li>
                 <li>• Opens a deep dive modal with prompts, stack ideas, and difficulty</li>
@@ -73,7 +73,7 @@ export default function ShowcasePage() {
           <div className="mt-10 rounded-3xl border border-white/10 bg-white/5 p-6">
             <h2 className="text-2xl font-semibold text-white">View Live Demo</h2>
             <p className="mt-3 text-slate-300">
-              Check out the deployed version of VibeVault 250 on GitHub Pages.
+              Check out the deployed version of VibeVault 260 on GitHub Pages.
             </p>
             <a
               href="https://btaira.github.io/VibeVault250/"

@@ -9,9 +9,9 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "VibeVault 250 — 250 AI Project Ideas from the Vibe Coding Community",
+  title: "VibeVault 260 — 260 AI Project Ideas from the Vibe Coding Community",
   description:
-    "250 curated AI-generated project ideas across SaaS, Creative, Utility, Social, and Deep Tech — filtered, liked, and surprise-picked with a slot machine.",
+    "260 curated AI-generated project ideas across SaaS, Creative, Utility, Social, and Deep Tech — filtered, liked, and surprise-picked with a slot machine.",
 };
 
 export default function RootLayout({

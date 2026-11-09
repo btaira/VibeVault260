@@ -4,9 +4,9 @@ import { CATEGORIES } from "@/lib/types";
 import { PROJECTS } from "@/data/projects";
 
 export const metadata: Metadata = {
-  title: "Showcase | VibeVault 250",
+  title: "Showcase | VibeVault 260",
   description:
-    "Explore the VibeVault 250 project showcase, learn how it works, and run it locally or in Docker.",
+    "Explore the VibeVault 260 project showcase, learn how it works, and run it locally or in Docker.",
 };
 
 export default function ShowcasePage() {
@@ -17,10 +17,10 @@ export default function ShowcasePage() {
 
           {/* Header */}
           <div className="mb-8 space-y-4 text-slate-100">
-            <p className="text-sm uppercase tracking-[0.3em] text-cyan-300">VibeVault 250</p>
+            <p className="text-sm uppercase tracking-[0.3em] text-cyan-300">VibeVault 260</p>
             <h1 className="text-4xl font-semibold sm:text-5xl">Project Showcase</h1>
             <p className="max-w-3xl text-slate-300 sm:text-lg">
-              250 AI project ideas curated from Reddit&apos;s vibe coding community — filtered by
+              260 AI project ideas curated from Reddit&apos;s vibe coding community — filtered by
               category and difficulty, deep-linked, and surprise-picked with a slot machine.
             </p>
           </div>
@@ -30,7 +30,7 @@ export default function ShowcasePage() {
             <div className="space-y-4 rounded-3xl border border-white/10 bg-white/5 p-6">
               <h2 className="text-2xl font-semibold text-white">What this app does</h2>
               <ul className="space-y-2.5 text-slate-300 text-sm leading-relaxed">
-                <li className="flex gap-2"><span className="text-cyan-400">•</span>Browse 250 AI project ideas organized across 5 categories</li>
+                <li className="flex gap-2"><span className="text-cyan-400">•</span>Browse 260 AI project ideas organized across 5 categories</li>
                 <li className="flex gap-2"><span className="text-cyan-400">•</span>Filter by category (SaaS, Creative, Utility, Social, Deep Tech)</li>
                 <li className="flex gap-2"><span className="text-cyan-400">•</span>Filter by difficulty — Beginner, Intermediate, or Advanced</li>
                 <li className="flex gap-2"><span className="text-cyan-400">•</span>Surprise picker with slot-machine animation and category-weighted picks</li>
@@ -157,7 +157,7 @@ npm run dev`}</code>
             <div>
               <h2 className="text-xl font-semibold text-white">Start browsing</h2>
               <p className="mt-2 text-slate-400 text-sm">
-                250 ideas, 5 categories, 3 difficulty levels — find your next build.
+                260 ideas, 5 categories, 3 difficulty levels — find your next build.
               </p>
             </div>
             <Link

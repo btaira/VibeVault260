@@ -64,7 +64,7 @@ export const useVibeStore = create<VibeState>()(
       _setHydrated: (v) => set({ hydrated: v }),
     }),
     {
-      name: "vibevault-250-store",
+      name: "vibevault-260-store",
       storage: createJSONStorage(() => localStorage),
       partialize: (s) => ({
         scores: s.scores,

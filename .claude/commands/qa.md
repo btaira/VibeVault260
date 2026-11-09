@@ -1,4 +1,4 @@
-# QA Validation — VibeVault 250
+# QA Validation — VibeVault 260
 
 Run a full quality-assurance pass on this Next.js / TypeScript / Tailwind repo. Work through every section below in order, report findings inline, and finish with a **Summary** table.
 
@@ -40,13 +40,13 @@ Confirm the build succeeds and static export artifacts are emitted to `out/`. No
 
 Read `data/projects.ts` and validate every `Project` object against the `Project` interface in `lib/types.ts`. Check:
 
-- **Count:** exactly 250 projects total
+- **Count:** exactly 260 projects total
 - **Unique IDs:** no duplicate `id` values
 - **Required fields present and non-empty:** `id`, `title`, `tagline`, `description`, `prompt`, `category`, `difficulty`, `stack`, `vibes`
 - **category** is one of: `saas | creative | utility | social | deeptech`
 - **difficulty** is one of: `Beginner | Intermediate | Advanced`
 - **stack** and **vibes** are non-empty arrays
-- **Category distribution:** report count per category (should total 50 each based on commit history)
+- **Category distribution:** report count per category (saas: 53, creative: 51, utility: 52, social: 50, deeptech: 54)
 - **Difficulty distribution:** report count per difficulty
 
 List every violation found. If all clean, say so.
@@ -60,7 +60,7 @@ Read `lib/store.ts` and verify:
 - The store covers all five `CategoryId` values in its `scores` shape
 - `toggleLike`, `recordSurprise`, `resetVibes` are exported and typed correctly
 - The `hydrated` flag is set via `onFinishHydration` or equivalent (not just `useEffect`) to avoid SSR mismatch
-- localStorage key is `vibevault-250-store`
+- localStorage key is `vibevault-260-store`
 
 Report any inconsistencies.
 

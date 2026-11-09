@@ -1,11 +1,11 @@
-# VibeVault 250
+# VibeVault 260
 
-VibeVault 250 is a Next.js app showcasing 250 AI project ideas from the Vibe coding community.
+VibeVault 260 is a Next.js app showcasing 260 AI project ideas from the Vibe coding community.
 It helps you browse ideas by category, deep dive into prompts and stacks, and discover one randomly using a slot-machine-inspired surprise picker.
 
 ## What’s Inside
 
-- 250 curated project ideas across 5 categories: SaaS, Creative, Utility, Social, and Deep Tech
+- 260 curated project ideas across 5 categories: SaaS, Creative, Utility, Social, and Deep Tech
 - Filterable idea browser with category counts
 - Surprise-me slot machine experience
 - Deep dive modal for idea details and prompt inspiration
@@ -46,8 +46,8 @@ This repository already includes a multi-stage `Dockerfile`.
 You can build and run the app in Docker with:
 
 ```bash
-docker build -t vibevault-250 .
-docker run --rm -p 3000:3000 vibevault-250
+docker build -t vibevault-260 .
+docker run --rm -p 3000:3000 vibevault-260
 ```
 
 Then open `http://localhost:3000`.
@@ -57,7 +57,7 @@ Then open `http://localhost:3000`.
 If you publish the image to Docker Hub or another registry, the pull command will look like:
 
 ```bash
-docker pull <username>/vibevault-250:latest
+docker pull <username>/vibevault-260:latest
 ```
 
 Replace `<username>` with your Docker Hub account or registry namespace.

@@ -1,10 +1,10 @@
-# VibeVault250 — Ideas Tracker
+# VibeVault260 — Ideas Tracker
 
-> Living document. Tracks proposed additions to the project list, full concept expansions, deep-dive build prompts, tags, and a historical changelog. The existing 250 projects are indexed here for quick cross-reference when evaluating new ideas for duplication or gaps.
+> Living document. Tracks proposed additions to the project list, full concept expansions, deep-dive build prompts, tags, and a historical changelog. The existing 260 projects are indexed here for quick cross-reference when evaluating new ideas for duplication or gaps.
 
 **Last updated:** 2026-11-09  
-**Existing projects:** 250  
-**Proposed additions:** 10 (under review)
+**Total projects:** 260  
+**Latest batch:** 10 added (2026-11-09)
 
 ---
 
@@ -20,7 +20,7 @@
 
 ### Status: Under Review — 2026-11-09
 
-Ten ideas sourced from Reddit community research (r/vibecoding, r/ClaudeCode, r/VibeCodingSaaS) and editorial judgment. Bar criteria: technically sophisticated, real community validation or genuinely novel concept, not duplicated in the existing 250, compelling deep-dive build prompt.
+Ten ideas sourced from Reddit community research (r/vibecoding, r/ClaudeCode, r/VibeCodingSaaS) and editorial judgment. Bar criteria: technically sophisticated, real community validation or genuinely novel concept, not duplicated in the existing 260, compelling deep-dive build prompt.
 
 ---
 
@@ -248,7 +248,7 @@ Build a Next.js 14 SaaS with Supabase backend. Core data model: `projects` (goal
 
 ## Existing Projects Index
 
-250 projects across 5 categories. Quick reference for duplication checks when evaluating new ideas.
+260 projects across 5 categories (saas: 53, creative: 51, utility: 52, social: 50, deeptech: 54). Quick reference for duplication checks when evaluating new ideas.
 
 ### SaaS (Projects 1–50)
 
@@ -534,7 +534,7 @@ Build a Next.js 14 SaaS with Supabase backend. Core data model: `projects` (goal
 **Session:** First ideas research session. Searched r/vibecoding, r/ClaudeCode, r/VibeCodingSaaS.
 
 **Process:**
-- Read all 250 existing projects to establish coverage map
+- Read all existing projects to establish coverage map
 - Searched Reddit for community-validated projects, explicit gaps, and showcase posts
 - Generated initial list of 10 candidates
 - User feedback: "raise the bar / swap ideas out / include SystemArchCanvas"
@@ -559,6 +559,6 @@ SystemArchCanvas, AnimationSpy, DesignTokenScraper, AcademicDigest, MindOps, Lex
 - ForgottenIdeas — beginner-simple note resurfacing
 - BeforeAfterPlayer — interesting but lower bar than final set
 - RetirementSim — Monte Carlo sliders well-covered elsewhere
-- DICOMDash — high technical bar but medical niche misaligned with VibeVault250 audience
+- DICOMDash — high technical bar but medical niche misaligned with VibeVault260 audience
 - FantasyMLPipe — technically sophisticated but sports ML feels off-brand
 - VATPrep — practical but accounting tools already well-covered in existing SaaS section
