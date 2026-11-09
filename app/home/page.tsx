@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { CATEGORIES } from "@/lib/types";
 import { PROJECTS } from "@/data/projects";
@@ -27,11 +27,11 @@ export default function ShowcasePage() {
             <div className="space-y-6 rounded-3xl border border-white/10 bg-white/5 p-6">
               <h2 className="text-2xl font-semibold text-white">What this app does</h2>
               <ul className="space-y-3 text-slate-300">
-                <li>• Showcases 260 project ideas organized by category</li>
-                <li>• Lets you filter by SaaS, Creative, Utility, Social, and Deep Tech</li>
-                <li>• Includes a surprise picker with a slot machine animation</li>
-                <li>• Opens a deep dive modal with prompts, stack ideas, and difficulty</li>
-                <li>• Is built with Next.js, React, Tailwind CSS, Framer Motion, and Zustand</li>
+                <li>â€¢ Showcases 260 project ideas organized by category</li>
+                <li>â€¢ Lets you filter by SaaS, Creative, Utility, Social, and Deep Tech</li>
+                <li>â€¢ Includes a surprise picker with a slot machine animation</li>
+                <li>â€¢ Opens a deep dive modal with prompts, stack ideas, and difficulty</li>
+                <li>â€¢ Is built with Next.js, React, Tailwind CSS, Framer Motion, and Zustand</li>
               </ul>
             </div>
 
@@ -76,7 +76,7 @@ export default function ShowcasePage() {
               Check out the deployed version of VibeVault 260 on GitHub Pages.
             </p>
             <a
-              href="https://btaira.github.io/VibeVault250/"
+              href="https://btaira.github.io/VibeVault260/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-flex rounded-full bg-cyan-500 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
@@ -93,7 +93,7 @@ export default function ShowcasePage() {
             <div className="mt-6 grid gap-6 sm:grid-cols-2">
               <div className="rounded-3xl border border-white/10 bg-slate-950/80 p-4">
                 <div className="aspect-video rounded-2xl bg-slate-800 flex items-center justify-center text-4xl">
-                  🏠
+                  ðŸ 
                 </div>
                 <h3 className="mt-4 text-lg font-semibold text-white">Home Page</h3>
                 <p className="mt-2 text-sm text-slate-400">
@@ -101,17 +101,17 @@ export default function ShowcasePage() {
                   Shows the sticky filter bar at the top and a grid of project cards below.
                 </p>
                 <a
-                  href="https://btaira.github.io/VibeVault250/"
+                  href="https://btaira.github.io/VibeVault260/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 inline-block text-sm text-cyan-300 hover:text-white"
                 >
-                  View on live site →
+                  View on live site â†’
                 </a>
               </div>
               <div className="rounded-3xl border border-white/10 bg-slate-950/80 p-4">
                 <div className="aspect-video rounded-2xl bg-slate-800 flex items-center justify-center text-4xl">
-                  🎰
+                  ðŸŽ°
                 </div>
                 <h3 className="mt-4 text-lg font-semibold text-white">Slot Machine Surprise</h3>
                 <p className="mt-2 text-sm text-slate-400">
@@ -119,46 +119,46 @@ export default function ShowcasePage() {
                   It spins through random projects and lands on a weighted pick based on your category preferences.
                 </p>
                 <a
-                  href="https://btaira.github.io/VibeVault250/"
+                  href="https://btaira.github.io/VibeVault260/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 inline-block text-sm text-cyan-300 hover:text-white"
                 >
-                  Try it live →
+                  Try it live â†’
                 </a>
               </div>
               <div className="rounded-3xl border border-white/10 bg-slate-950/80 p-4">
                 <div className="aspect-video rounded-2xl bg-slate-800 flex items-center justify-center text-4xl">
-                  🔍
+                  ðŸ”
                 </div>
                 <h3 className="mt-4 text-lg font-semibold text-white">Deep Dive Modal</h3>
                 <p className="mt-2 text-sm text-slate-400">
                   Click any project card to open a detailed modal with the full description, AI prompt, tech stack suggestions, and difficulty level.
                 </p>
                 <a
-                  href="https://btaira.github.io/VibeVault250/"
+                  href="https://btaira.github.io/VibeVault260/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 inline-block text-sm text-cyan-300 hover:text-white"
                 >
-                  Explore projects →
+                  Explore projects â†’
                 </a>
               </div>
               <div className="rounded-3xl border border-white/10 bg-slate-950/80 p-4">
                 <div className="aspect-video rounded-2xl bg-slate-800 flex items-center justify-center text-4xl">
-                  📱
+                  ðŸ“±
                 </div>
                 <h3 className="mt-4 text-lg font-semibold text-white">Responsive Design</h3>
                 <p className="mt-2 text-sm text-slate-400">
                   The app works great on desktop, tablet, and mobile with a clean, cyber-themed UI using Tailwind CSS and Framer Motion animations.
                 </p>
                 <a
-                  href="https://btaira.github.io/VibeVault250/"
+                  href="https://btaira.github.io/VibeVault260/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 inline-block text-sm text-cyan-300 hover:text-white"
                 >
-                  See responsive layout →
+                  See responsive layout â†’
                 </a>
               </div>
             </div>

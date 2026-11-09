@@ -5,7 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   output: isStaticExport ? "export" : "standalone",
   ...(isStaticExport && {
-    basePath: "/VibeVault250",
+    basePath: "/VibeVault260",
     images: { unoptimized: true },
   }),
 };
